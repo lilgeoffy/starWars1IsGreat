@@ -14,7 +14,7 @@ group :production, :staging do
 end
 
 group :development, :test do
-  gem 'sqlite3', '~>1.3.6', :require => 'sqlite3'
+  gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
