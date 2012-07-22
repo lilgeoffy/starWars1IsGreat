@@ -9,12 +9,6 @@ gem 'rails', '3.2.3'
 
 #-ruby', '1.3.3', :group => :development
 
-group :production, :staging do
-  gem "pg"
-end
-
-group :development, :test do
-  gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
